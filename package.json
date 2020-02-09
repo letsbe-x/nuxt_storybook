@@ -1,0 +1,25 @@
+{
+  "name": "Template",
+  "version": "1.0.0",
+  "description": "0day StoryBook",
+  "author": "Xxings",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "storybook": "start-storybook"
+  },
+  "dependencies": {
+    "@storybook/addon-links": "^5.3.12",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@storybook/addon-actions": "^5.3.12",
+    "@storybook/addon-knobs": "^5.3.12",
+    "@storybook/addon-viewport": "^5.3.12",
+    "@storybook/vue": "^5.3.12"
+  }
+}
