@@ -1251,25 +1251,6 @@
     qs "^6.6.0"
     ts-dedent "^1.1.0"
 
-"@storybook/addon-storysource@^5.3.12":
-  version "5.3.12"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.3.12.tgz#8050476286a6251c92ff3159ac0de9d4c75aae50"
-  integrity sha512-5YYaXO0TssbZojTnfII4a7+oaCAXl4TFw+EIHIovu3kRJVh29ZXexcIsgdv1VV4YFAomfpu1HdAPyhdHmSMwWw==
-  dependencies:
-    "@storybook/addons" "5.3.12"
-    "@storybook/components" "5.3.12"
-    "@storybook/router" "5.3.12"
-    "@storybook/source-loader" "5.3.12"
-    "@storybook/theming" "5.3.12"
-    core-js "^3.0.1"
-    estraverse "^4.2.0"
-    loader-utils "^1.2.3"
-    prettier "^1.16.4"
-    prop-types "^15.7.2"
-    react-syntax-highlighter "^11.0.2"
-    regenerator-runtime "^0.13.3"
-    util-deprecate "^1.0.2"
-
 "@storybook/addon-viewport@^5.3.12":
   version "5.3.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-5.3.12.tgz#2f1e415d3f070e454818074faf2ccfb2b4a99ffa"
@@ -1520,22 +1501,6 @@
     memoizerific "^1.11.3"
     qs "^6.6.0"
     util-deprecate "^1.0.2"
-
-"@storybook/source-loader@5.3.12":
-  version "5.3.12"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.3.12.tgz#b3ed2fc62ff38b66fcb831a9c1003cb71c41dae6"
-  integrity sha512-+l85iXo1qp0Yvw792uSqizzgPzdksILYMzDnXiqiLU4oPKb8GMcwGHC6RwLsUqGA0ZA/Smls8mvbdCEXjRRlnw==
-  dependencies:
-    "@storybook/addons" "5.3.12"
-    "@storybook/client-logger" "5.3.12"
-    "@storybook/csf" "0.0.1"
-    core-js "^3.0.1"
-    estraverse "^4.2.0"
-    global "^4.3.2"
-    loader-utils "^1.2.3"
-    prettier "^1.16.4"
-    prop-types "^15.7.2"
-    regenerator-runtime "^0.13.3"
 
 "@storybook/theming@5.3.12":
   version "5.3.12"
@@ -8217,7 +8182,7 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@^1.16.4, prettier@^1.18.2:
+prettier@^1.18.2:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
@@ -8459,9 +8424,9 @@ querystring@0.2.0, querystring@^0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 quick-format-unescaped@^1.1.1:
   version "1.1.2"
@@ -10334,9 +10299,9 @@ url-loader@^2.0.1, url-loader@^2.3.0:
     schema-utils "^2.5.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
