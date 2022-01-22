@@ -1251,25 +1251,6 @@
     qs "^6.6.0"
     ts-dedent "^1.1.0"
 
-"@storybook/addon-storysource@^5.3.12":
-  version "5.3.12"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.3.12.tgz#8050476286a6251c92ff3159ac0de9d4c75aae50"
-  integrity sha512-5YYaXO0TssbZojTnfII4a7+oaCAXl4TFw+EIHIovu3kRJVh29ZXexcIsgdv1VV4YFAomfpu1HdAPyhdHmSMwWw==
-  dependencies:
-    "@storybook/addons" "5.3.12"
-    "@storybook/components" "5.3.12"
-    "@storybook/router" "5.3.12"
-    "@storybook/source-loader" "5.3.12"
-    "@storybook/theming" "5.3.12"
-    core-js "^3.0.1"
-    estraverse "^4.2.0"
-    loader-utils "^1.2.3"
-    prettier "^1.16.4"
-    prop-types "^15.7.2"
-    react-syntax-highlighter "^11.0.2"
-    regenerator-runtime "^0.13.3"
-    util-deprecate "^1.0.2"
-
 "@storybook/addon-viewport@^5.3.12":
   version "5.3.12"
   resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-5.3.12.tgz#2f1e415d3f070e454818074faf2ccfb2b4a99ffa"
@@ -1520,22 +1501,6 @@
     memoizerific "^1.11.3"
     qs "^6.6.0"
     util-deprecate "^1.0.2"
-
-"@storybook/source-loader@5.3.12":
-  version "5.3.12"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.3.12.tgz#b3ed2fc62ff38b66fcb831a9c1003cb71c41dae6"
-  integrity sha512-+l85iXo1qp0Yvw792uSqizzgPzdksILYMzDnXiqiLU4oPKb8GMcwGHC6RwLsUqGA0ZA/Smls8mvbdCEXjRRlnw==
-  dependencies:
-    "@storybook/addons" "5.3.12"
-    "@storybook/client-logger" "5.3.12"
-    "@storybook/csf" "0.0.1"
-    core-js "^3.0.1"
-    estraverse "^4.2.0"
-    global "^4.3.2"
-    loader-utils "^1.2.3"
-    prettier "^1.16.4"
-    prop-types "^15.7.2"
-    regenerator-runtime "^0.13.3"
 
 "@storybook/theming@5.3.12":
   version "5.3.12"
@@ -6842,9 +6807,11 @@ node-ask@^1.0.1:
   integrity sha1-yqoQdsxY4DZCZ6CQPj6t+sFYOWs=
 
 node-fetch@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-libs-browser@^2.2.1:
   version "2.2.1"
@@ -8217,7 +8184,7 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@^1.16.4, prettier@^1.18.2:
+prettier@^1.18.2:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
@@ -10124,6 +10091,11 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
+
 tree-kill@^1.1.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
@@ -10580,6 +10552,11 @@ watchpack@^1.6.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
+
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
@@ -10732,6 +10709,14 @@ whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
   integrity sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 whatwg-url@^6.4.1:
   version "6.5.0"
